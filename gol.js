@@ -1,7 +1,7 @@
 var canvas = document.getElementById("canvas");
 var ctx = canvas.getContext("2d");
 var startButton = document.getElementById("startButton");
-var started = false;
+var started = false; // Keeps track if simulation is started or stopped
 
 // Creates a table of cells, each containing its status (false = dead, true = alive) and the number of neighbors (counted in simulation)
 var cells = [];
